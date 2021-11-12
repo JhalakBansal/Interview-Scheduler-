@@ -1,0 +1,38 @@
+<html>    
+    <head>    
+        <title>Input Details to Schedule Interview</title>    
+    </head>    
+    <body>    
+        <link href = "regis.css" type = "text/css" rel = "stylesheet" />    
+        <h2>Input Details to Schedule Interview</h2>   		
+        <form name = "form1" action="insert.php" method = "post" >    
+            <div class = "container">    
+                <div class = "form_group">    
+                    <label>Participant 1 Name:</label>    
+                    <input type = "text" name = "fname" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                    <label>Participant 2 Name:</label>    
+                    <input type = "text" name = "sname" value = "" required />    
+                </div>    
+                <div class = "form_group">    
+                    <label>Date:</label>    
+                    <input type = "datetime" name = "date" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                    <label>Start time:</label>    
+                    <input type = "text" name = "stime" value = "" required/>    
+                </div>    
+				<div class = "form_group">    
+                    <label>End time:</label>    
+                    <input type = "text" name = "etime" value = "" required/>    
+                </div> 
+				<center>
+				<div class= "form group">
+                    <input type="submit" value="Submit" name="submit">
+				</div>
+				</center>
+            </div>    
+        </form> 		
+    </body>    
+</html> 
